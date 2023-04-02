@@ -1,4 +1,4 @@
-package llc.eventa.stepDef;
+package llc.eventa.stepDefination;
 
 import org.openqa.selenium.WebDriver;
 
@@ -9,7 +9,7 @@ import io.cucumber.java.en.When;
 import llc.eventa.PageObjectModel.homepage;
 import llc.eventa.PageObjectModel.pageActions;
 
-public class eventa_login_steps 
+public class eventa_login_stepDef 
 {
 
     //Global Variables and objects
