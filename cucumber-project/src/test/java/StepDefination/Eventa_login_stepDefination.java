@@ -1,5 +1,4 @@
-package llc.eventa.stepDefination;
-
+package StepDefination;
 import org.openqa.selenium.WebDriver;
 
 import io.cucumber.java.Before;
@@ -9,8 +8,13 @@ import io.cucumber.java.en.When;
 import llc.eventa.PageObjectModel.homepage;
 import llc.eventa.PageObjectModel.pageActions;
 
-public class eventa_login_stepDef 
-{
+public class Eventa_login_stepDefination {
+    
+
+
+
+
+
 
     //Global Variables and objects
     homepage Homepage;
@@ -24,13 +28,13 @@ public class eventa_login_stepDef
 
 
 
-    @Before("I open chrome browser")
+    /*@Before("I open chrome browser")
         public void I_open_chrome_browser()
         {
             System.out.println("I have opened Chrome !!!!!!!!!!!!!");
             Homepage.LaunchBrowser("chrome");
             PageA.ManageBrowserUtilities();
-        }
+        } */
          
     
     @Given("I land on eventa landing page")
@@ -53,34 +57,5 @@ public class eventa_login_stepDef
             Homepage.validateProfileNameExist("Techno");
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 }
