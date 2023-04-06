@@ -1,7 +1,5 @@
 package llc.eventa.stepDefination;
 import org.openqa.selenium.WebDriver;
-
-import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
