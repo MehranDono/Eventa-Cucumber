@@ -6,12 +6,13 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/java/llc/eventa/resources/eventa_login.feature"},
-                 glue = {"llc.eventa.stepDefination", "llc.eventa.MyHooks"},
+@CucumberOptions(features = {"src/test/java/llc/eventa/resources/manual_login.feature"},
+                 glue = {"llc.eventa.stepDefination"},
                  monochrome = true,
                  plugin = "html:target/HtmlReports",
-                 dryRun = true)
-public class MyCucumberRunner {
+                 dryRun = false)
+public class MyCucumberRunner 
+{
     // ...
 }
 

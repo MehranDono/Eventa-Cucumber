@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 import llc.eventa.PageObjectModel.homepage;
 import llc.eventa.PageObjectModel.pageActions;
 
-public class Eventa_login_stepDefination {
+public class Eventa_login_stepDefination extends pageActions {
     
 
 
