@@ -28,13 +28,13 @@ public class Eventa_login_stepDefination {
 
 
 
-    @Before("@openChrome")
+    /*@Before("@openChrome")
         public void I_open_chrome_browser()
         {
             System.out.println("I have opened Chrome !!!!!!!!!!!!!");
             Homepage.LaunchBrowser("chrome");
             PageA.ManageBrowserUtilities();
-        }  
+        }  */
          
     
     @Given("^I land on eventa landing page$")
