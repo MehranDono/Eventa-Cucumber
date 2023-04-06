@@ -45,7 +45,7 @@ public class Manual_Login_StepDefination
     public void user_profile_name_is_techno71()
     {
         System.out.println("I can see my name as Techno71 ... !!!!!!!!!!");
-        
+        testHomepage.validateProfileNameExist("techno");
     }
 
 

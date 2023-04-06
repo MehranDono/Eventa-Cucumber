@@ -34,14 +34,6 @@
     </dependency>
 
 
-    <dependency>
-      <groupId>io.cucumber</groupId>
-      <artifactId>cucumber-jvm</artifactId>
-      <version>7.11.2</version>
-      <type>pom</type>
-    </dependency>
-
-
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
