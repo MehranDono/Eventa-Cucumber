@@ -26,5 +26,6 @@
         "features/**/*.rs",
         "features/**/*.rb",
         "*specs*/**/.cs"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
 }
