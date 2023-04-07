@@ -2,7 +2,9 @@ package llc.eventa.stepDefination;
 
 
 
-import io.cucumber.java.en.And;
+
+import org.junit.Assert;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -45,7 +47,7 @@ public class Manual_Login_StepDefination
     public void user_profile_name_is_techno71()
     {
         System.out.println("I can see my name as Techno71 ... !!!!!!!!!!");
-        testHomepage.validateProfileNameExist("techno");
+        Assert.assertEquals("Failed Profile Name is not found", testHomepage.validateProfileNameExist("Techno"), true);
     }
 
 

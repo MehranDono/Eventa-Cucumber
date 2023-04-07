@@ -10,7 +10,8 @@ import io.cucumber.junit.CucumberOptions;
                  glue = {"llc.eventa.stepDefination"},
                  monochrome = true,
                  plugin = "html:target/HtmlReports",
-                 dryRun = false)
+                 dryRun = false,
+                 publish = true)
 public class MyCucumberRunner 
 {
     // ...
