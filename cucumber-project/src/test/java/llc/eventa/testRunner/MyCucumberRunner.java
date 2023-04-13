@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = {"src/test/java/llc/eventa/resources/manual_login.feature"},
                  glue = {"llc.eventa.stepDefination"},
                  monochrome = true,
-                 plugin = "html:target/Html-Reports",
+                 plugin = {"html:target/Html-Reports", "junit:target/JUnitReports/report.xml"},
                  dryRun = false,
                  publish = true)
 public class MyCucumberRunner 
