@@ -38,7 +38,6 @@ public class Manual_Login_StepDefination
 
 
     @Given("^user is on landing page$")
-    
         public void user_is_on_landing_page() 
         {
             System.out.println("Navigating to Eventa homepage...............!!!!");
