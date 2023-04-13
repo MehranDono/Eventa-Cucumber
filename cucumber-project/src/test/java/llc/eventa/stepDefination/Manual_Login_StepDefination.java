@@ -47,7 +47,7 @@ public class Manual_Login_StepDefination
     public void user_profile_name_is_techno71()
     {
         System.out.println("I can see my name as Techno71 ... !!!!!!!!!!");
-        Assert.assertEquals("Failed Profile Name is not found", testHomepage.validateProfileNameExist("Techno"), true);
+        Assert.assertEquals("Failed Profile Name is not found", testHomepage.validateProfileNameExist("Techno71"), true);
     }
 
 
