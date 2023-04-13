@@ -47,7 +47,7 @@ public class Manual_Login_StepDefination
         }
 
     @When("^user enters username and password$")
-    public void user_enters_username_and_password()
+        public void user_enters_username_and_password()
     {
         System.out.println(">>>>>>> Login with Valid Credentials <<<<<<<<<<<<");
         testHomepage.login();
@@ -55,7 +55,7 @@ public class Manual_Login_StepDefination
     }
         
     @Then("^user profile name is techno$")
-    public void user_profile_name_is_techno()
+        public void user_profile_name_is_techno()
     {
         System.out.println("I can see my name as Techno ... !!!!!!!!!!");
         Assert.assertEquals("Failed Profile Name is not found", testHomepage.validateProfileNameExist("Techno"), true);
